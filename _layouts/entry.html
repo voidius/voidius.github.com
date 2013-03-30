@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<h2 class="content">{{page.title}}</h2>
-
-<img src="{{ page.image }}" />
-
-{{ content }}
+<ul class="entries">
+  <li>
+    <h2 class="content">{{page.title}}</h2>
+    <img src="{{ page.image }}" />
+    {{ content }}
+  </li>
+</ul>
