@@ -2,4 +2,6 @@
 layout: default
 title: About
 ---
-About page
+Myself:
+
+<img src="/assets/img/me.jpg" />
