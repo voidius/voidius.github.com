@@ -7,11 +7,17 @@ title: Blog
   {% for post in site.posts %}
 
   <li>
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
-      <h3>{{ post.title }}</h3>
-    </a>
+    <div class="well">
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+      {% if post.image %}<img src="{{ post.image }}" />{% endif %}
+      {{ post.content }}
+    </div>
   </li>
 
   {% endfor %}
 </ul>
+
+
+
