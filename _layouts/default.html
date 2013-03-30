@@ -26,8 +26,13 @@
         <a class="brand" href="/">Bloggery blog</a>
         <div class="nav-collapse">
           <ul class="nav">
-            <li class="active"><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
-            <li><a href="/about">About</a></li>
+            {% if page.title == "About" %}
+              <li><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
+              <li class="active"><a href="/about">About</a></li>
+            {% else %}
+              <li class="active"><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
+              <li><a href="/about">About</a></li>
+            {% endif %}
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
