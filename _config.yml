@@ -1,3 +1,4 @@
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
 server: true
 auto: true
+pygments: true
