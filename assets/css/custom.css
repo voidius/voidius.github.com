@@ -16,6 +16,14 @@ ul li {
   border-top: none;
 }
 
+.entries li:last-child,
+.no-hr li {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
 .entries h3 {
   margin-top: 0;
 }
