@@ -34,3 +34,5 @@ end CD_to
 {% endhighlight %}
 
 After that you will see a new entry on folder rightclick menu.
+
+*code is not mine but stolen from somewhere*
